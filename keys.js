@@ -1,2 +1,0 @@
-
-client_id = "MzEyNDg4MzR8MTY3MjI1MTQ4Mi4zMTMwNDI"
