@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventfinder</title>
+</head>
+<body>
+    <header> 
+        <div class="toggle">
+            <div class="dark-mode">Dark mode</div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <h2 class="logo">Eventfinder </h2>
+        <div class="saved-items">
+            <img src ="./cart.png" class="cart-img" />
+            <ul class="items-list">  Saved Items
+
+            </ul>
+        </div>
+    </header>
+    <div class="city-search">
+        <div class="categories">
+            <label for="categories">Categories</label>
+            <select name="category" id="category">
+              <option value="Theater">Theater</option>
+              <option value="Comedy">Comedy</option>
+              <option value="Classical" selected>Classical</option>
+              <option value="Concert">Concert</option>
+              <option value="Nfl">NFL</option>
+              <option value="Nhl">NHL</option>
+              <option value="WWE">WWE</option>
+            </select>
+        </div>
+        <h1 class="h1">Search Events</h1>
+        <div class="city">
+            <input class="user-input" type="text" placeholder="Enter city">
+        </div>
+        <button class="submit-btn">Search</button>
+    </div>
+    <div class="events">
+        <div class="event">
+          
+        </div>
+    </div>
+    <script src="client_id.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
