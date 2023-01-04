@@ -1,0 +1,18 @@
+{
+  "savedItems": [
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/topdog-underdog-de76fe/257304/huge.jpg",
+      "title": "Topdog/Underdog - New York",
+      "price": 436,
+      "reviews": "nice",
+      "id": 3
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/hits-the-musical-d401d5/798532/huge.jpg",
+      "title": "HITS The Musical - Tampa",
+      "price": null,
+      "reviews": "Write a review",
+      "id": 4
+    }
+  ]
+}
