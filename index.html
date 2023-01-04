@@ -10,45 +10,74 @@
     <link rel="stylesheet" href="style.css">
     <title>Eventfinder</title>
 </head>
-<body>
-    <header> 
+<body class="body">
+    <header class="header"> 
         <div class="toggle">
-            <div class="dark-mode">Dark mode</div>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
+            <div>Dark mode</div>
+            <div class="light-mode">ON</div>
+            <div class="dark-mode">OFF</div>
         </div>
         <h2 class="logo">Eventfinder </h2>
         <div class="saved-items">
             <img src ="./cart.png" class="cart-img" />
             <ul class="items-list">  Saved Items
-
+                
             </ul>
         </div>
     </header>
-    <div class="city-search">
-        <div class="categories">
-            <label for="categories">Categories</label>
-            <select name="category" id="category">
-              <option value="Theater">Theater</option>
-              <option value="Comedy">Comedy</option>
-              <option value="Classical" selected>Classical</option>
-              <option value="Concert">Concert</option>
-              <option value="Nfl">NFL</option>
-              <option value="Nhl">NHL</option>
-              <option value="WWE">WWE</option>
-            </select>
+    <div class="container">
+        <span class="line">
+            <h1 class="trending-header">Trending near you </h1>
+        </span>
+        
+        <div class="popular-events">
+            
         </div>
-        <h1 class="h1">Search Events</h1>
-        <div class="city">
-            <input class="user-input" type="text" placeholder="Enter city">
+        <div class="filtered-events">
+            <h1 class="h1">Filter Events By</h1>
+            <div class="filtering">
+                <div class="city-search">
+                        <h3 class="city">City</h3>
+                        <input class="user-input" type="text" placeholder="Enter city">
+                </div>
+                
+                <div class="categories">
+                    <label for="categories">Category</label>
+                    <select name="category" id="category">
+                        <option value="Theater">Theater</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Classical">Classical</option>
+                        <option value="Concert">Concert</option>
+                        <option value="Nfl">NFL</option>
+                        <option value="Nhl">NHL</option>
+                        <option value="WWE">WWE</option>
+                    </select>
+                </div>
+                <div class="score-div">
+                    <h3>Score</h3>
+                    <select name="score" class="score-input">
+                        <option value="asc">Low-High</option>
+                        <option value="desc">High-Low</option>
+                    </select>
+                </div>
+                
+            </div>
+            <button class="submit-btn">Search</button>
         </div>
-        <button class="submit-btn">Search</button>
-    </div>
-    <div class="events">
-        <div class="event">
-          
+        
+        <div class="events">
+            <div class="event">
+                
+            </div>
+        </div>
+       
+        <div class="saved-items-section">
+            <h2 class="saved-items-header">Saved Items</h2>
+            <div class="saved-items-list">
+
+            </div>
+            
+
         </div>
     </div>
     <script src="client_id.js"></script>
