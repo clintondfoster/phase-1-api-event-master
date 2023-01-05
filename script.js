@@ -267,6 +267,28 @@ function createBox(data) {
     deleteButton.innerText = "Delete"
     savedDetails.appendChild(deleteButton)
 
+//  mouseover event
+
+    purchaseBtn.addEventListener("mouseover", () => {
+        purchaseBtn.style.backgroundColor = "rgba(0, 128, 0, 0.338)";
+    });
+
+    deleteButton.addEventListener("mouseover", () => {
+        deleteButton.style.backgroundColor = "rgba(255, 0, 0, 0.338)";
+    });
+
+//  mouseout event
+
+    purchaseBtn.addEventListener("mouseout", () => {
+        purchaseBtn.style.backgroundColor = "green";
+    });
+
+    deleteButton.addEventListener("mouseout", () => {
+        deleteButton.style.backgroundColor = "red";
+    });
+
+//
+
     deleteButton.addEventListener("click", () =>{
         fetch(`http://localhost:3000/savedItems/${data.id}`,{
         method: "DELETE"
@@ -324,3 +346,6 @@ function createBox(data) {
     })
 
 }
+
+//more event listeners
+
