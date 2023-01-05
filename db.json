@@ -13,6 +13,55 @@
       "price": null,
       "reviews": "Write a review",
       "id": 4
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/trixie-katya-dbec75/751990/huge.jpg",
+      "title": "Trixie & Katya LIVE - Miami (Rescheduled from 9/4/22)",
+      "price": 284,
+      "reviews": "Write a review",
+      "id": 5
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/trixie-katya-dbec75/751990/huge.jpg",
+      "title": "Trixie & Katya LIVE - Miami (Rescheduled from 9/4/22)",
+      "price": 284,
+      "reviews": "Write a review",
+      "id": 6
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/magic-mike-live-tour-cc33e5/152397/huge.jpg",
+      "title": "Magic Mike Live - Miami",
+      "price": null,
+      "reviews": "Write a review",
+      "id": 7
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/trixie-katya-dbec75/751990/huge.jpg",
+      "title": "Trixie & Katya LIVE - Miami (Rescheduled from 9/4/22)",
+      "price": 284,
+      "reviews": "Write a review",
+      "id": 8
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/trixie-katya-dbec75/751990/huge.jpg",
+      "title": "Trixie & Katya LIVE - Miami (Rescheduled from 9/4/22)",
+      "price": 284,
+      "reviews": "Write a review",
+      "id": 9
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/blueys-big-play-6abc16/798424/huge.jpg",
+      "title": "Bluey's Big Play - Salt Lake City",
+      "price": 238,
+      "reviews": "Write a review",
+      "id": 10
+    },
+    {
+      "img_url": "https://seatgeek.com/images/performers-landscape/raja-ced0bf/800394/huge.jpg",
+      "title": "RAJA - Boston",
+      "price": 111,
+      "reviews": "Write a review",
+      "id": 11
     }
   ]
 }
